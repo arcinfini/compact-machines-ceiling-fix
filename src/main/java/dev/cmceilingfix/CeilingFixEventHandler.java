@@ -31,7 +31,7 @@ public class CeilingFixEventHandler {
                 CompactRoomData intern = CompactRoomData.get(compactDim);
                 AABB bounds = intern.getBounds(machineChunk);
                 if (pos.y >= bounds.maxY - 1.0) {
-                    entity.setPos(pos.x, bounds.maxY - 1.5, pos.z);
+                    entity.setPos(pos.x, bounds.maxY - 0.1, pos.z);
                 }
             } catch (NonexistentRoomException e) {
                 return;
