@@ -1,4 +1,4 @@
-package dev.cmceilingfix;
+package net.arcinfini.cmfix;
 
 import dev.compactmods.machines.api.dimension.CompactDimension;
 import dev.compactmods.machines.room.data.CompactRoomData;
